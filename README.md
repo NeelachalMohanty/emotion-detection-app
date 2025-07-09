@@ -27,25 +27,18 @@ A deep learning app that detects human emotions using a trained CNN model and sh
 
 pip install -r requirements.txt
 
-shell
-Copy
-Edit
+
 
 ### 2. Run Streamlit App
 
 streamlit run app.py
 
-shell
-Copy
-Edit
 
 ### 3. Run Real-Time Webcam
 
 python live_webcam.py
 
-yaml
-Copy
-Edit
+
 
 ---
 
