@@ -25,34 +25,43 @@ A deep learning app that detects human emotions using a trained CNN model and sh
 
 ### 1. Install requirements
 
-bash
 pip install -r requirements.txt
-2. Run Streamlit App
-bash
+
+shell
 Copy
 Edit
+
+### 2. Run Streamlit App
+
 streamlit run app.py
-3. Run Real-Time Webcam
-bash
+
+shell
 Copy
 Edit
+
+### 3. Run Real-Time Webcam
+
 python live_webcam.py
-📁 Files
-app.py — Streamlit UI
 
-live_webcam.py — Real-time detection
+yaml
+Copy
+Edit
 
-Emotion_Detection.h5 — Trained CNN model
+---
 
-haarcascade_frontalface_default.xml — Face detector
+## 📁 Files
 
-requirements.txt — Python dependencies
+- `app.py` — Streamlit UI  
+- `live_webcam.py` — Real-time detection  
+- `Emotion_Detection.h5` — Trained CNN model  
+- `haarcascade_frontalface_default.xml` — Face detector  
+- `requirements.txt` — Python dependencies  
+- `README.md` — Project overview  
 
-README.md — Project overview
+---
 
-📌 Highlights
-Resume-ready ML project ✅
+## 📌 Highlights
 
-Interactive UI with emojis ✅
-
-Deployable to Hugging Face ✅
+- Resume-ready ML project ✅  
+- Interactive UI with emojis ✅  
+- Deployable to Hugging Face ✅
